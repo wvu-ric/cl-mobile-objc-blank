@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B58AD821C6D366F008214F0 /* Blank.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B58AD811C6D366F008214F0 /* Blank.m */; };
 		E9495A7B1C5D7B9500FC8105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9495A7A1C5D7B9500FC8105 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6B58AD801C6D366F008214F0 /* Blank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blank.h; sourceTree = "<group>"; };
+		6B58AD811C6D366F008214F0 /* Blank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Blank.m; sourceTree = "<group>"; };
 		E9495A771C5D7B9500FC8105 /* Blank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Blank; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9495A7A1C5D7B9500FC8105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +44,8 @@
 		E9495A6E1C5D7B9500FC8105 = {
 			isa = PBXGroup;
 			children = (
+				6B58AD801C6D366F008214F0 /* Blank.h */,
+				6B58AD811C6D366F008214F0 /* Blank.m */,
 				E9495A791C5D7B9500FC8105 /* Blank */,
 				E9495A781C5D7B9500FC8105 /* Products */,
 			);
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B58AD821C6D366F008214F0 /* Blank.m in Sources */,
 				E9495A7B1C5D7B9500FC8105 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +213,7 @@
 		E9495A7F1C5D7B9500FC8105 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -214,6 +221,7 @@
 		E9495A801C5D7B9500FC8105 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -237,6 +245,7 @@
 				E9495A801C5D7B9500FC8105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
