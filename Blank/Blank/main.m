@@ -8,10 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+//import blank
+#import "Blank.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        // allocate and initialize a new instance of your Blank object with the variable name `myBlankObject`
+        Blank *myBlankObject =[[Blank alloc]init];
+        
     }
     return 0;
 }
